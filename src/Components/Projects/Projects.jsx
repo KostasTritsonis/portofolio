@@ -13,9 +13,9 @@ const Projects = () => {
       <h1>PROJECTS</h1>
       <h2>FRONT END</h2>
       <div className='project1'>
-        <ProjectCard src={edusity} link="https://edusity-snowy.vercel.app/" name="Edusity" title="University"/>
+        <ProjectCard src={edusity} link="https://edusity-snowy.vercel.app/" name="Edusity" title="University Website"/>
         <ProjectCard src={hipster} link="" name="Hipster" title="Glassses Shop"/>
-        <ProjectCard src={lift} link="" name="FitLift" title="Gym"/>
+        <ProjectCard src={lift} link="" name="FitLift" title="Gym Website"/>
       </div>
       <h2>BACK END</h2>
       <div className='project2'>

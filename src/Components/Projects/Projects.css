@@ -34,7 +34,7 @@
 
 .project1{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 40px; 
 }
 
@@ -46,7 +46,7 @@
 @media(width <=1400px){
     .projects{
         img{
-            width: 200px;
+            width: 150px;
         }
 
         h1{

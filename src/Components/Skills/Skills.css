@@ -32,11 +32,15 @@
 @media(width <=1400px){
     .skills{
         img{
-            width: 30px;
+            width: 20px;
         }
 
         hr{
-            width: 400px;
+            width: 350px;
+        }
+
+        p{
+            font-size: 14px;
         }
     } 
 }

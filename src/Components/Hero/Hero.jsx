@@ -39,9 +39,9 @@ const Hero = () => {
                 <img src={linkedinIcon} alt="" /></a>
             </span>
             <p>With a passion for developing modern apps</p>
-            <a href={CV} download>
+            {/*<a href={CV} download>
                 <button className='hover' >Resume</button>
-            </a>
+            </a>*/}
         </div>
     </div>
   )
