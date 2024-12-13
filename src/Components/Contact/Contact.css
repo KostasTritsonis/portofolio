@@ -1,0 +1,60 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 500px;
+
+    button{
+        margin-top: 50px;
+    }
+
+    button:hover{
+        transform: scale(1.05)
+    }
+   
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+    textarea,input{
+        background-color: var(--background-color);
+        color: var(--text-color);
+        height: 50px;
+        padding-left: 16px;
+        width: 750px;
+        border-radius: 20px;
+        border: #888 1px solid;
+        box-sizing: border-box;
+    }
+
+    ::placeholder{
+        color: var(--text-color); 
+    }
+
+    textarea{
+        padding-top: 16px;
+        resize: none;
+        height: 250px;
+    }
+}
+
+@media(width <=1400px){
+    .contact{
+        margin-top: 300px;
+    }
+
+    .info {
+        textarea,input{
+            width: 450px;
+        }
+    }
+}
+
+
+
+
+
