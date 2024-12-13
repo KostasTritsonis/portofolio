@@ -9,3 +9,11 @@
     }
 
 }
+
+@media(width <=400px){
+    .footer{
+        p{
+            font-size: 14px;
+        }
+    }
+}
