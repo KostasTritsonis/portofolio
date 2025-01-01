@@ -30,11 +30,11 @@ const Hero = () => {
             <h1>KONSTANTINOS <br /> TRITSONIS</h1>
             <h2>Software Developer</h2>
             <span>
-                <a href="https://www.facebook.com/kwstas.tritsonis" target='_blank'>
+                <a href="https://www.facebook.com/kwstas.tritsonis" aria-label="facebook" target='_blank'>
                 <img src={facebookIcon} alt="" /></a>
-                <a href="https://github.com/KostasTritsonis" target='_blank'>
+                <a href="https://github.com/KostasTritsonis" aria-label="github" target='_blank'>
                 <img src={githubIcon} alt="" /></a>
-                <a href="https://www.linkedin.com/in/kostantinos-tritsonis-637522214/" target='_blank'>
+                <a href="https://www.linkedin.com/in/kostantinos-tritsonis-637522214/" aria-label="linkedin" target='_blank'>
                 <img src={linkedinIcon} alt="" /></a>
             </span>
             <p>With a passion for developing modern apps</p>
