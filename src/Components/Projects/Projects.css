@@ -32,16 +32,16 @@
     }
 }
 
-.project1{
+.project{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px; 
 }
 
-.project2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.project img{
+    padding: 5px;
 }
+
 
 @media(width <=1400px){
     .projects{
@@ -52,10 +52,6 @@
         h1{
             margin-bottom: 50px;
         }
-    }
-
-    .project1{
-        grid-template-columns:1fr 1fr;
     }
 }
 
