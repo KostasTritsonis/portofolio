@@ -2,7 +2,7 @@ import React from 'react'
 import './Projects.css'
 import movie from '../../assets/movie.png'
 import compiler from '../../assets/compiler.png'
-import enginuity from '../../assets/enginuity.png'
+import enginuity from '../../assets/enginuity.svg'
 import lift from '../../assets/fitlift.png'
 import ProjectCard from '../ProjectCard/ProjectCard'
 
