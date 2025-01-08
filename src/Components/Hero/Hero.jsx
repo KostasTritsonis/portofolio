@@ -1,4 +1,5 @@
 import React from 'react';
+import './Hero.css'
 import heroImg from '../../assets/hero-img.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
