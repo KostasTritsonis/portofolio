@@ -3,8 +3,8 @@ import './Projects.css'
 import movie from '../../assets/movie.png'
 import compiler from '../../assets/compiler.png'
 import enginuity from '../../assets/enginuity.svg'
-import lift from '../../assets/fitlift.png'
 import ProjectCard from '../ProjectCard/ProjectCard'
+import harmony from '../../assets/harmony.png'
 
 const Projects = () => {
   return (
@@ -13,7 +13,7 @@ const Projects = () => {
       <h2>FRONT END</h2>
       <div className='project'>
         <ProjectCard src={enginuity} link="https://matina-snowy.vercel.app/" name="Enginuity" title="English Class Website"/>
-        <ProjectCard src={lift} link="" name="FitLift" title="Gym Website"/>
+        <ProjectCard src={harmony} link="https://harmony-lovat-seven.vercel.app/" name="Harmony" title="Yoga Studio Website"/>
       </div>
       <h2>BACK END</h2>
       <div className='project'>
