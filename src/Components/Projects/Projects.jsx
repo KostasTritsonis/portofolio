@@ -4,7 +4,7 @@ import movie from '../../assets/movie.png'
 import compiler from '../../assets/compiler.png'
 import enginuity from '../../assets/enginuity.svg'
 import ProjectCard from '../ProjectCard/ProjectCard'
-import harmony from '../../assets/harmony.png'
+import harmony from '../../assets/harmony.svg'
 
 const Projects = () => {
   return (

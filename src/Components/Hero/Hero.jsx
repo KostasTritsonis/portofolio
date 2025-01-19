@@ -10,7 +10,7 @@ import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import { useTheme } from '../Context/Context';
-
+import test from '../../assets/test.png';
 
 const Hero = () => {
     const {theme,toggleTheme} = useTheme();
@@ -21,7 +21,7 @@ const Hero = () => {
   return (
     <div className='hero'>
         <div className='hero-right'>
-            <img src={heroImg} alt="Profile picture" />
+            <img src={test} alt="Profile picture" />
             <img className='colorMode' src={iconTheme} alt="" onClick={toggleTheme}/>
         </div>
         <div className='hero-left'>
