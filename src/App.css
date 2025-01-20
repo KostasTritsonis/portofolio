@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
 :root {
     --background-color: #fff;
     --btn-color: #0987f2;
@@ -18,12 +20,21 @@
     --footer-text-color: #fff;
 }
 
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
 
 body{
     background-color: var(--background-color);
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
+    font-family: "Instrument Sans", serif;
 }
 
 h1{
@@ -88,5 +99,9 @@ button{
         width: 100px;
         height: 40px;
         font-size: 16px;
+    }
+
+    .content{
+        flex-direction: column;
     }
 }

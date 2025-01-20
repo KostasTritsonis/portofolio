@@ -1,0 +1,33 @@
+.about{
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--text-color);
+    border-radius: 30px;
+    width: 500px;
+    height: 450px;
+    margin-bottom: 200px;
+
+
+    p{
+        width: 350px;
+        align-self: center;
+    }
+
+}
+
+@media(max-width:1400px){
+
+    .about{
+        width: 300px;
+        height: 400px;
+        margin-bottom: 50px;
+
+        p{
+            width: 250px;
+        }
+    }
+
+}
